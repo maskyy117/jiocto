@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5F5DC;
+    color: #333;
+}
+
+.banner-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.nav {
+    background-color: #FF7F50;
+    text-align: center;
+    padding: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a { text-decoration: none; color: white; }
+.nav a:hover { text-decoration: underline; }
+
+.content-section {
+    padding: 20px;
+    line-height: 1.6;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1080px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.clock-display {
+    font-weight: bold;
+    background-color: white;
+    color: #FF7F50;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+/* Footer Styling */
+.footer-section {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-section h3 {
+    color: #FF7F50;
+    margin-bottom: 20px;
+}
+
+.footer-section a {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #FF7F50;
+}
+
+hr.footer-line {
+    border-color: #7f8c8d;
+    width: 60%;
+    margin: 20px auto;
+}
